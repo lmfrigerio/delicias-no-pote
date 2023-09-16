@@ -25,6 +25,7 @@ header h1{
     font-family: 'Yesteryear', cursive;
     font-size: 2.5rem;
     color: #fd4d02;
+   
 
 }
 
@@ -161,13 +162,23 @@ background: #f86e33;
 }
 
 footer{
+    display: flex;
     width: 100vw;
     height: 80px;
     background: #e1c313;
+    align-items:  center;
+    justify-content: center;
+}  
+
+footer p{
+    color: white; 
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 750px){
-    
+    header h1{
+        font-size: 3rem;
+    }
     .box-img, .box-text{
         display: flex;
         width: 100%;
@@ -210,15 +221,21 @@ footer{
         align-items: center;
         justify-content: center;
         max-width: 60%;
+       
     }
 
     .box-text h2{
         font-size: 3rem;
+        line-height: 45px;
     }
 
     .box-text span{
         font-size: 1.5rem;
         letter-spacing: 3px;
+    }
+
+    .box-text p{
+        margin-top: 10px;
     }
 
 
